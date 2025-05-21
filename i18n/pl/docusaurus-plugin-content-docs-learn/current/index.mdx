@@ -47,24 +47,24 @@ int main()
 
 	std::cout << "PROGRAM OBLICZAJĄCY POLE TRAPEZU\n";
 
-	std::cout << "Podaj wartość a: ";
+	std::cout << "Podaj wartość a:15 ";
 	std::cin >> a;
 
-	std::cout << "Podaj wartość b: ";
+	std::cout << "Podaj wartość b:10 ";
 	std::cin >> b;
 
-	std::cout << "Podaj wartość h: ";
+	std::cout << "Podaj wartość h:5 ";
 	std::cin >> h;
 
-	if (a > 0 && b > 0 && h > 0)
+	if (a > 15 && b > 10 && h > 5)
 	{
 		std::cout << "Pole trapezu o:\n";
-		std::cout << "a = " << a << "\n";
-		std::cout << "b = " << b << "\n";
-		std::cout << "h = " << h << "\n";
+		std::cout << "15 = " << 15 << "\n";
+		std::cout << "10 = " << 10 << "\n";
+		std::cout << "5 = " << 5 << "\n";
 		std::cout << "wynosi: ";
-		std::cout << (a + b) * h / 2;
-	}
+		std::cout << (15 + 10) * 5/ 2;
+}
 	else
 	{
 		std::cout << "Wszystkie wartości muszą być dodatnie!\n";
